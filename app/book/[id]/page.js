@@ -54,7 +54,7 @@ items-center p-4 text-xl font-bold overflow-x-auto md:overflow-x-visible"
             {data?.title}
           </h3>
           <p
-            className={`max-w-[1000px] break-words text-justify`}
+            className={`break-words text-justify`}
             dangerouslySetInnerHTML={{ __html: data?.description }}
           />
           <Link
