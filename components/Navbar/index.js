@@ -5,23 +5,20 @@ import { InputSearch } from "./InputSearch";
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-[#0d161b] flex justify-between items-center p-2 shadow-md backdrop-blur-md shadow-slate-500 md:flex-row flex-col">
-        <div className=" gap-2 px-4 sm:px-6 lg:px-8">
+      <header className="bg-[#0d161b] flex justify-between items-center p-2 shadow-md backdrop-blur-md shadow-slate-500 md:flex-row flex-col w-full">
+        <div className="flex md:flex-row gap-2 flex-col justify-between md:items-center md:w-7/12 w-full">
           <Link
             href="/"
-            className="flex items-center gap-4 font-bold text-2xl underline decoration-wavy decoration-red-300"
+            className={`font-bold text-2xl text-color-primary flex items-center`}
           >
             <Image
               width="40"
               height="40"
-              src="https://img.icons8.com/3d-fluency/94/open-book--v1.png"
-              alt="open-book--v1"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/book.png"
+              alt="book"
             />
-            BOOKS
+            <span className="ml-2">私の図書館</span>
           </Link>
-        </div>
-
-        <div className="flex gap-3">
           <InputSearch />
         </div>
 
@@ -43,7 +40,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-      </nav>
+      </header>
     </>
   );
 };

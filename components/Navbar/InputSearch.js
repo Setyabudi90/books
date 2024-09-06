@@ -27,7 +27,7 @@ export const InputSearch = () => {
           id="search"
           type="text"
           placeholder="search books..."
-          className={`p-2 w-full rounded text-slate-700 border border-color-dark outline-none z-30`}
+          className={`p-2 w-full rounded text-black border border-color-dark outline-none`}
           ref={searchRef}
           onKeyDown={handleKeyDown}
         />
