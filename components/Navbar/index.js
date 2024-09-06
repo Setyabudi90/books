@@ -5,7 +5,7 @@ import { InputSearch } from "./InputSearch";
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-[#0d161b] flex justify-between items-center p-2 shadow-md backdrop-blur-md shadow-slate-500">
+      <nav className="bg-[#0d161b] flex justify-between items-center p-2 shadow-md backdrop-blur-md shadow-slate-500 md:flex-row flex-col">
         <div className=" gap-2 px-4 sm:px-6 lg:px-8">
           <Link
             href="/"
