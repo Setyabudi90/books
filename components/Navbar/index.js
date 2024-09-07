@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex gap-3">
-          <Link href="https://www.instagram.com/@i.setya_b">
+          <Link href="https://www.instagram.com/i.setya_b?igsh=MXZoNHFpYW4xZ2EzMg==" target="_blank">
             <Image
               width="48"
               height="48"
@@ -31,7 +31,7 @@ const Navbar = () => {
               alt="instagram-new--v1"
             />
           </Link>
-          <Link href="https://threads.net/@i.setya_b">
+          <Link href="https://threads.net/@i.setya_b" target="_blank">
             <Image
               width="48"
               height="48"
