@@ -9,7 +9,7 @@ export const metadata = {
   description: "An Simple Library BOOKS APP",
   keywords: "library, books, app, nextjs",
   author: "i.setya_b",
-  robots: "noindex, nofollow",
+  robots: "index, follow",
 };
 
 export default function RootLayout({ children }) {
